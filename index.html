@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SiteSnag is a site snagging app for contractors, surveyors and property teams. Privacy Policy and Support.">
+  <title>SiteSnag</title>
+  <style>
+:root {
+  --teal: #6AC8C9;
+  --teal-dark: #0F5C5E;
+  --teal-mid: #1A7A7C;
+  --ink: #163233;
+  --muted: #4A6364;
+  --bg: #eef6f6;
+  --card: #ffffff;
+  --line: #d5e8e8;
+  --max: 46rem;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--bg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+a { color: var(--teal-mid); }
+a:hover { color: var(--teal-dark); }
+header {
+  background: var(--teal-dark);
+  color: #fff;
+  padding: 1rem 1.25rem;
+  border-bottom: 4px solid var(--teal);
+}
+header .wrap, footer .wrap, main.wrap {
+  max-width: calc(var(--max) + 4rem);
+  margin: 0 auto;
+}
+header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.brand {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-size: 1.25rem;
+}
+.brand span { color: var(--teal); }
+nav { display: flex; gap: 1.1rem; flex-wrap: wrap; }
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  opacity: 0.92;
+}
+nav a:hover, nav a[aria-current="page"] {
+  color: var(--teal);
+  opacity: 1;
+}
+main.wrap { padding: 2rem 1.25rem 3rem; }
+.card {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 1.75rem 1.6rem 2rem;
+  box-shadow: 0 8px 24px rgba(15, 92, 94, 0.08);
+  border: 1px solid var(--line);
+}
+h1 {
+  margin: 0 0 0.4rem;
+  font-size: 1.85rem;
+  letter-spacing: -0.03em;
+  line-height: 1.25;
+  color: var(--teal-dark);
+}
+h2 {
+  margin: 1.75rem 0 0.5rem;
+  font-size: 1.2rem;
+  color: var(--teal-dark);
+}
+.lede, .meta { color: var(--muted); }
+.meta { font-size: 0.95rem; margin: 0 0 1.4rem; }
+.lede { margin: 0 0 1.4rem; }
+p { margin: 0 0 1rem; }
+ul, ol { margin: 0 0 1rem; padding-left: 1.2rem; }
+li { margin: 0.25rem 0; }
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0 0.25rem;
+}
+.btn {
+  display: inline-block;
+  background: var(--teal);
+  color: var(--teal-dark);
+  text-decoration: none;
+  font-weight: 650;
+  padding: 0.7rem 1.05rem;
+  border-radius: 10px;
+}
+.btn:hover { background: #7ed5d6; color: var(--teal-dark); }
+.btn.secondary {
+  background: #fff;
+  color: var(--teal-dark);
+  border: 2px solid var(--teal);
+}
+dt { font-weight: 650; color: var(--teal-dark); margin-top: 1rem; }
+dd { margin: 0.25rem 0 0.75rem; color: var(--ink); }
+.contact {
+  background: #f4fbfb;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  margin: 1rem 0 1.25rem;
+}
+.contact p { margin: 0.2rem 0; }
+footer {
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 1.5rem 1.25rem 2.25rem;
+}
+footer p { margin: 0.25rem 0; }
+@media (max-width: 600px) {
+  h1 { font-size: 1.55rem; }
+  .card { padding: 1.3rem 1.15rem 1.6rem; }
+}
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">Site<span>Snag</span></a>
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <article class="card">
+      <h1>Site snagging for contractors, surveyors and property teams</h1>
+      <p class="lede">Walk the site, log every snag, and hand your client a professional, signed PDF report. SiteSnag runs on iPhone and iPad, works fully offline, and is a one-off purchase with no subscription.</p>
+      <p>SiteSnag is published by Limitless Technology Solutions Limited, trading as Accelerate IT, in the United Kingdom.</p>
+      <div class="actions">
+        <a class="btn" href="support.html">Support</a>
+        <a class="btn secondary" href="privacy.html">Privacy Policy</a>
+      </div>
+      <h2>In the app</h2>
+      <ul>
+        <li>Organise jobs into projects and areas, with photos, mark-up, priorities and status.</li>
+        <li>Log a snag by voice, or pin it on a 3D room scan on LiDAR Pro devices.</li>
+        <li>Export a branded PDF and complete handover with an on-screen client signature.</li>
+        <li>Everything is stored on your device. Version 1.1.0, for iOS 17 or later.</li>
+      </ul>
+      <div class="contact">
+        <p><strong>Need help?</strong> Email <a href="mailto:help@accelerateit.co.uk">help@accelerateit.co.uk</a> or call 01782 357824. We aim to respond within 1–2 business days.</p>
+      </div>
+    </article>
+  </main>
+  <footer>
+    <div class="wrap">
+      <p>&copy; 2026 Limitless Technology Solutions Limited, trading as Accelerate IT.</p>
+      <p><a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a> · <a href="mailto:help@accelerateit.co.uk">help@accelerateit.co.uk</a></p>
+    </div>
+  </footer>
+</body>
+</html>

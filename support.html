@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SiteSnag support, contact details and frequently asked questions for version 1.1.0.">
+  <title>Support — SiteSnag</title>
+  <style>
+:root {
+  --teal: #6AC8C9;
+  --teal-dark: #0F5C5E;
+  --teal-mid: #1A7A7C;
+  --ink: #163233;
+  --muted: #4A6364;
+  --bg: #eef6f6;
+  --card: #ffffff;
+  --line: #d5e8e8;
+  --max: 46rem;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--bg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+a { color: var(--teal-mid); }
+a:hover { color: var(--teal-dark); }
+header {
+  background: var(--teal-dark);
+  color: #fff;
+  padding: 1rem 1.25rem;
+  border-bottom: 4px solid var(--teal);
+}
+header .wrap, footer .wrap, main.wrap {
+  max-width: calc(var(--max) + 4rem);
+  margin: 0 auto;
+}
+header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.brand {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-size: 1.25rem;
+}
+.brand span { color: var(--teal); }
+nav { display: flex; gap: 1.1rem; flex-wrap: wrap; }
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  opacity: 0.92;
+}
+nav a:hover, nav a[aria-current="page"] {
+  color: var(--teal);
+  opacity: 1;
+}
+main.wrap { padding: 2rem 1.25rem 3rem; }
+.card {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 1.75rem 1.6rem 2rem;
+  box-shadow: 0 8px 24px rgba(15, 92, 94, 0.08);
+  border: 1px solid var(--line);
+}
+h1 {
+  margin: 0 0 0.4rem;
+  font-size: 1.85rem;
+  letter-spacing: -0.03em;
+  line-height: 1.25;
+  color: var(--teal-dark);
+}
+h2 {
+  margin: 1.75rem 0 0.5rem;
+  font-size: 1.2rem;
+  color: var(--teal-dark);
+}
+.lede, .meta { color: var(--muted); }
+.meta { font-size: 0.95rem; margin: 0 0 1.4rem; }
+.lede { margin: 0 0 1.4rem; }
+p { margin: 0 0 1rem; }
+ul, ol { margin: 0 0 1rem; padding-left: 1.2rem; }
+li { margin: 0.25rem 0; }
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0 0.25rem;
+}
+.btn {
+  display: inline-block;
+  background: var(--teal);
+  color: var(--teal-dark);
+  text-decoration: none;
+  font-weight: 650;
+  padding: 0.7rem 1.05rem;
+  border-radius: 10px;
+}
+.btn:hover { background: #7ed5d6; color: var(--teal-dark); }
+.btn.secondary {
+  background: #fff;
+  color: var(--teal-dark);
+  border: 2px solid var(--teal);
+}
+dt { font-weight: 650; color: var(--teal-dark); margin-top: 1rem; }
+dd { margin: 0.25rem 0 0.75rem; color: var(--ink); }
+.contact {
+  background: #f4fbfb;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  margin: 1rem 0 1.25rem;
+}
+.contact p { margin: 0.2rem 0; }
+footer {
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 1.5rem 1.25rem 2.25rem;
+}
+footer p { margin: 0.25rem 0; }
+@media (max-width: 600px) {
+  h1 { font-size: 1.55rem; }
+  .card { padding: 1.3rem 1.15rem 1.6rem; }
+}
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">Site<span>Snag</span></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="support.html" aria-current="page">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <article class="card">
+      <h1>SiteSnag Support</h1>
+      <p class="meta">App version 1.1.0 · iPhone and iPad · iOS 17 or later</p>
+      <p class="lede">If you need help with SiteSnag, please get in touch. We are Limitless Technology Solutions Limited, trading as Accelerate IT, and we aim to respond within 1–2 business days.</p>
+
+      <div class="contact">
+        <p><strong>Email:</strong> <a href="mailto:help@accelerateit.co.uk">help@accelerateit.co.uk</a></p>
+        <p><strong>Telephone:</strong> 01782 357824</p>
+        <p>United Kingdom</p>
+      </div>
+
+      <h2>Frequently asked questions</h2>
+      <dl>
+        <dt>Does room scanning work on every device?</dt>
+        <dd>3D room scanning uses Apple RoomPlan and needs a LiDAR depth sensor. That is available on iPhone Pro models from the iPhone 12 Pro onwards, and on iPad Pro. On other iPhone and iPad models the app shows a message that scanning is not available. You can still photograph issues, mark them up, log snags by voice, complete handover and export PDF reports.</dd>
+
+        <dt>Does SiteSnag work offline?</dt>
+        <dd>Yes. Everything is stored on your device, so you can capture snags, scan rooms on a supported device, and export reports without an internet connection.</dd>
+
+        <dt>How do I export or share a PDF report?</dt>
+        <dd>Open the project and export the report. SiteSnag creates a branded PDF with your photos, mark-ups, priorities and status. You can then share it by email or save it to Files using the iOS share sheet.</dd>
+
+        <dt>How does handover sign-off work?</dt>
+        <dd>From the project menu, choose Handover, select the items to include, and ask the client to sign on the screen and enter their name. Accepted items are recorded with the date and time, and a signed sign-off page is added to the PDF.</dd>
+
+        <dt>How do voice snags work, and which permissions are needed?</dt>
+        <dd>Open an area and choose New snag by voice, then describe the issue and, if you wish, a priority (critical, high, medium or low). You can also dictate notes on an issue. These features use the microphone and Apple’s speech recognition, and iOS will ask for those permissions the first time you use them. You can change permissions later in the iOS Settings app. Speech recognition is provided by Apple and may run on the device or on Apple’s servers; see our <a href="privacy.html">Privacy Policy</a>.</dd>
+
+        <dt>How do I back up my work?</dt>
+        <dd>SiteSnag does not have its own cloud sync. To keep a copy of a job, export the PDF and save or send it somewhere safe. Your SiteSnag data is also included when you back up the device itself, for example to a computer or in an iPhone or iPad backup.</dd>
+
+        <dt>How do I delete my data?</dt>
+        <dd>Deleting the SiteSnag app removes your SiteSnag data from that device. PDFs you have already exported or shared, and copies held in a device backup, are not removed by deleting the app.</dd>
+      </dl>
+
+      <h2>About the app</h2>
+      <p>SiteSnag 1.1.0 is a site inspection app for iPhone and iPad running iOS 17 or later. It is a paid, one-off App Store purchase with no subscription.</p>
+    </article>
+  </main>
+  <footer>
+    <div class="wrap">
+      <p>&copy; 2026 Limitless Technology Solutions Limited, trading as Accelerate IT.</p>
+      <p><a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a> · <a href="mailto:help@accelerateit.co.uk">help@accelerateit.co.uk</a></p>
+    </div>
+  </footer>
+</body>
+</html>
